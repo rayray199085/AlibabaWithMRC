@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0D05929621FFD5DE0035163A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D05929521FFD5DE0035163A /* main.m */; };
+		0D05929E21FFD6110035163A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D05929D21FFD6110035163A /* Product.m */; };
+		0D0592A221FFD7900035163A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0592A121FFD7900035163A /* User.m */; };
+		0D0592A621FFD85E0035163A /* Buyer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0592A521FFD85E0035163A /* Buyer.m */; };
+		0D0592A921FFD8C20035163A /* Seller.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D0592A821FFD8C20035163A /* Seller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,16 @@
 /* Begin PBXFileReference section */
 		0D05929221FFD5DE0035163A /* AlibabaWithMRC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlibabaWithMRC; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D05929521FFD5DE0035163A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D05929C21FFD6110035163A /* Product.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		0D05929D21FFD6110035163A /* Product.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		0D05929F21FFD6970035163A /* DateFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateFormat.h; sourceTree = "<group>"; };
+		0D0592A021FFD7900035163A /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0D0592A121FFD7900035163A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0D0592A321FFD7AC0035163A /* Gender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gender.h; sourceTree = "<group>"; };
+		0D0592A421FFD85E0035163A /* Buyer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Buyer.h; sourceTree = "<group>"; };
+		0D0592A521FFD85E0035163A /* Buyer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Buyer.m; sourceTree = "<group>"; };
+		0D0592A721FFD8C20035163A /* Seller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Seller.h; sourceTree = "<group>"; };
+		0D0592A821FFD8C20035163A /* Seller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Seller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 			isa = PBXGroup;
 			children = (
 				0D05929521FFD5DE0035163A /* main.m */,
+				0D05929C21FFD6110035163A /* Product.h */,
+				0D05929D21FFD6110035163A /* Product.m */,
+				0D05929F21FFD6970035163A /* DateFormat.h */,
+				0D0592A021FFD7900035163A /* User.h */,
+				0D0592A121FFD7900035163A /* User.m */,
+				0D0592A321FFD7AC0035163A /* Gender.h */,
+				0D0592A421FFD85E0035163A /* Buyer.h */,
+				0D0592A521FFD85E0035163A /* Buyer.m */,
+				0D0592A721FFD8C20035163A /* Seller.h */,
+				0D0592A821FFD8C20035163A /* Seller.m */,
 			);
 			path = AlibabaWithMRC;
 			sourceTree = "<group>";
@@ -119,6 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D05929621FFD5DE0035163A /* main.m in Sources */,
+				0D0592A621FFD85E0035163A /* Buyer.m in Sources */,
+				0D05929E21FFD6110035163A /* Product.m in Sources */,
+				0D0592A221FFD7900035163A /* User.m in Sources */,
+				0D0592A921FFD8C20035163A /* Seller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +267,7 @@
 		0D05929A21FFD5DE0035163A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +276,7 @@
 		0D05929B21FFD5DE0035163A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
